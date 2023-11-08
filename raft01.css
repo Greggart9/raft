@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    border-bottom: 0.5px solid white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 3rem;
+    
+}
+
+.middle_list a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#logo{
+    height: 50px;
+}
+
+.login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_content button {
+    color: green;
+}
